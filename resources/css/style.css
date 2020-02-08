@@ -1,0 +1,344 @@
+/*-------------------------------------------------
+
+	- Proyect: DJ Candelas
+	- Date: Nov 2019
+	- Author: Bryan Rodríguez
+
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+
+                - Color palette -
+
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+
+                - General Setup -
+
+-------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:100,300,400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(243, 243, 243);
+  color: #111;
+  font-family: "Zilla Slab", serif;
+  font-size: 56%;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  min-width: 315px;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/*-------------------------------------------------
+
+                - Reusables -
+
+-------------------------------------------------*/
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  color: white;
+  font-size: 4rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+h2:after {
+  display: block;
+  height: 0.1rem;
+  background-color: black;
+  content: " ";
+  width: 10rem;
+  margin: 2rem auto;
+}
+
+p {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: justify;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+}
+
+section {
+  padding: 8rem 0;
+  border-bottom: 1px solid #ccc;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.divide {
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  content: " ";
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 10rem;
+}
+
+.row-max {
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.row-90 {
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+/*-------------------------------------------------
+
+                - Section Header -
+
+-------------------------------------------------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./backgrounds/court.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header-logo {
+  position: absolute;
+  max-width: 55rem;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-text-box {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icon-arrow {
+  font-size: 3rem;
+  display: block;
+  color: white;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+/*-------------------------------------------------
+
+                - Section About -
+
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+
+                - Section Experiencia -
+
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+
+                - Section Servicios -
+
+-------------------------------------------------*/
+
+.section-servicios h3 {
+  margin-top: 1rem;
+}
+.section-servicios ul {
+  text-align: left;
+  margin-left: 20%;
+}
+.section-servicios ul li {
+  padding-top: 0.5rem;
+  font-size: 2.5rem;
+}
+
+/*-------------------------------------------------
+
+                - Section Abogados -
+
+-------------------------------------------------*/
+
+.section-abogados h3 {
+  text-align: left;
+  margin-top: 1rem;
+}
+.ficha-abogado {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.contacto-abogado {
+  padding: 1rem;
+}
+
+.contacto-abogado a,
+.contacto-abogado a:link,
+.contacto-abogado a:hover,
+.contacto-abogado a:active {
+  color: black;
+}
+.contacto-abogado h3 {
+  font-weight: 600;
+}
+
+/*-------------------------------------------------
+
+                - Section Contacto -
+
+-------------------------------------------------*/
+
+.section-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./backgrounds/flag.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-weight: 300;
+  padding-bottom: 10rem;
+  max-width: none;
+  font-size: 2.5rem;
+}
+
+.section-contacto h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.section-contacto h2:after {
+  background-color: white;
+}
+
+.contacto-logo {
+  margin: 3rem auto;
+  height: 13rem;
+}
+
+.section-contacto .row {
+  margin: 1.5rem 0;
+}
+
+.section-contacto .span-1-of-3 {
+  text-align: right;
+}
+
+.section-contacto .span-2-of-3 {
+  text-align: left;
+}
+
+.section-contacto .span-3-of-3 {
+  text-align: left;
+}
+
+.section-contacto input[type="text"] {
+  width: 95%;
+  margin-right: 5%;
+  color: black;
+}
+
+.section-contacto input[type="checkbox"] {
+  margin: 3%;
+  color: black;
+}
+.section-contacto textarea {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 1rem;
+  color: black;
+}
+
+.btn {
+  color: #000;
+  font-size: 90%;
+  display: inline-block;
+  padding: 0.6rem 1.8rem 0.8rem 1.8rem;
+  border: 1px solid #000;
+  background: white;
+  text-decoration: none;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  border: 1px solid #fff;
+}
+
+textarea {
+  resize: none;
+}
+/*-------------------------------------------------
+
+                - Footer -
+
+-------------------------------------------------*/
+
+footer {
+  background-color: #111;
+  padding-top: 3rem;
+  color: #ddd;
+  font-size: 1.6rem;
+}
+
+footer p {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+footer h3 {
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 1.6rem;
+}

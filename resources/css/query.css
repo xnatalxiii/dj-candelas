@@ -1,0 +1,53 @@
+/*-------------------------------------------------
+
+	- Proyect: DJ Candelas
+	- Date: Nov 2019
+	- Author: Bryan Rodríguez
+
+-------------------------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 51%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  html,
+  body {
+    font-size: 46.5%;
+  }
+
+  .header-logo {
+    top: 35%;
+
+    max-width: 45rem;
+  }
+
+  .header-text-box {
+    top: 60%;
+  }
+
+  .span-1-of-2 {
+    width: 98%;
+  }
+
+  .section-servicios h3 {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    font-size: 41%;
+  }
+  .section-contacto .span-1-of-3 {
+    text-align: left;
+  }
+
+  .header-logo {
+    max-width: 40rem;
+  }
+}
