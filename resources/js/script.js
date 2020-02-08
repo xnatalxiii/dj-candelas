@@ -1,7 +1,7 @@
 /*-------------------------------------------------
 
-	- Proyect: Bradia Soluciones en TI landing page
-	- Date: Oct 2019
+	- Proyect: DJ Candelas
+	- Date: Nov 2019
 	- Author: Bryan Rodríguez
 
 -------------------------------------------------*/
